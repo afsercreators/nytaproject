@@ -1,0 +1,38 @@
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build output
+/dist
+/build
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE/Editor specific files (e.g., VS Code, IntelliJ)
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+Thumbs.db
+ehthumbs.db
+
+# Ignore temporary files
+*.swp
+*.bak
+
+# Ignore coverage reports
+coverage/
+
+# Ignore dependency directories (for certain programming languages like Python or Ruby)
+venv/
+__pycache__/
+*.pyc
+*.pyo

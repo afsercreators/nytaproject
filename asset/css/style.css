@@ -1,0 +1,8 @@
+@import url(./import.css);
+
+body {
+  font-family: "Inter", sans-serif !important;
+}
+a {
+  text-decoration: none;
+}

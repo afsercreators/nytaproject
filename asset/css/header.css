@@ -1,0 +1,72 @@
+.logo img {
+  width: 125px;
+}
+.social-media i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.social-media i:nth-of-type(1) {
+  color: #1877f2;
+}
+.social-media i:nth-of-type(2) {
+  color: #ff0000;
+}
+.social-media i:nth-of-type(3) {
+  color: #000000;
+}
+.social-media i:nth-of-type(4) {
+  color: #0077b5;
+}
+.social-media i:last-child {
+  margin-right: 0 !important;
+}
+.connect i {
+  color: #25d366;
+}
+.connect {
+  color: var(--brand-color);
+}
+.header {
+  height: 110px;
+}
+/* nav */
+nav {
+  background-color: var(--brand-color);
+  padding: 0 !important;
+}
+.consultation-button {
+  background-color: var(--brand-color);
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 10px;
+}
+.nav-link {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  margin: 0 5px;
+}
+.active-bar {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 0 !important;
+}
+.mobile-button {
+  font-size: 20px;
+  color: #000000;
+  display: none !important;
+}
+/* mobile */
+
+@media only screen and (max-width: 1000px) {
+  #mobile-hide {
+    display: none !important;
+  }
+  .mobile-button {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 770px) {
+  #connect-hide {
+    display: none !important;
+  }
+}
